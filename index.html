@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Lưu Trữ Ảnh Của Tôi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f4f9; text-align: center; }
+        h1 { color: #333; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; padding: 20px; }
+        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .gallery img:hover { transform: scale(1.03); }
+    </style>
+</head>
+<body>
+
+    <h1>Thư Viện Ảnh Cá Nhân</h1>
+    <p>Trang web lưu trữ ảnh của tôi trên GitHub Pages</p>
+
+    <div class="gallery">
+        <!-- CÁCH THÊM ẢNH: Thay chữ "link-anh-cua-ban.jpg" bằng đường dẫn thực tế của ảnh -->
+        <img src="ten-anh-1.jpg" alt="Ảnh 1">
+        <img src="ten-anh-2.jpg" alt="Ảnh 2">
+    </div>
+
+</body>
+</html>
